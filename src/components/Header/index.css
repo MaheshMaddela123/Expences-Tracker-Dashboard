@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100px;
+  padding: 20px 0;
+  background-color: #000814;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.nav-links li {
+  list-style-type: none;
+  width: 100%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  width: 100%;
+  color: white;
+}
+
+.icon {
+  font-size: 25px;
+  color: white;
+}

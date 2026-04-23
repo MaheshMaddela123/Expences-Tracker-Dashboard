@@ -1,0 +1,22 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  border: none;
+  text-align: left;
+}
+
+.table-icons {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+}
+
+.table-icon {
+  font-size: 20px;
+}
