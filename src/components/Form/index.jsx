@@ -51,8 +51,6 @@ const Form = ({ onClose }) => {
   };
 
   const handleSubmitData = (event) => {
-    event.preventDefault();
-    if (!validation()) return;
     const newData = {
       ...formData,
       id: Date.now().toString(),
@@ -108,7 +106,6 @@ const Form = ({ onClose }) => {
           <select
             name="category"
             id="category"
-            name="category"
             onChange={handleInputChange}
             value={formData.category}
           >
