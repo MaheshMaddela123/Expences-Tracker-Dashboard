@@ -20,3 +20,21 @@
 .table-icon {
   font-size: 20px;
 }
+
+.table-container {
+  margin-top: 50px;
+  background: #fff;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .table-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .add-transaction-btn {
+    width: 100%;
+  }
+}
